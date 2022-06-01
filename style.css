@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik One', sans-serif;
+}
+
+header {
+  box-shadow: 0 10px 9px 0 black;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+header p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+main {
+  margin: 0 auto 50px auto;
+  width: 60%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: aquamarine;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.img_su img {
+  opacity: 1;
+  border: 4px dashed black;
+  border-radius: 30px;
+  height: 400px;
+  width: 450px;
+  box-shadow: 30px 40px 20px 0 black;
+  margin: 120px 40px 40px 120px;
+}
+
+.content{
+  font-size: 30px;
+  background-color: aliceblue;
+  border: 10px solid black;
+  border-radius: 20px;
+  width: 100%;
+  padding: 50px;
+  margin: 30px 0;
+}
+
+.content p {
+  padding: 10px 0;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 30px 15px ;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px 15px 20px 15px;
+  color: white;
+  border: 3px solid grey;
+  border-radius: 30px;
+  width: 60px;
+  height: 50px;
+}
+
+nav a:visited{
+  color: grey;
+}
+
+.text {
+  font-size: 25px;
+  background-image: linear-gradient(lime,aquamarine,aliceblue);
+  border: 3px solid black;
+  border-radius: 40px;
+  height: 1200px;
+  padding: 30px 10px 30px 10px;
+  margin: 30px 10px 30px 10px;
+}
+
+.text a {
+  text-decoration: none;
+  color: green;
+}
+
+h1, h2 {
+  margin: 10px auto 20px 5px;
+}
+
+#toTop {
+  width:100px;
+  border:1px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  padding:5px;
+  position:fixed;
+  bottom:10px; /* отступ кнопки от нижнего края страницы*/
+  right:10px;
+  cursor:pointer;
+  display:none;
+  color:#333;
+  font-family:verdana;
+  font-size:11px;
+  }
+
+  .rofl{
+    size: 50px;
+  }
+
+  .rofl2{
+    size: 50px;
+    margin-top: 400px;
+  }
+  .info{
+    font-family: sans-serif;
+    size: 80px;
+    border: 10px solid black;
+    background-color: ;
+  }
